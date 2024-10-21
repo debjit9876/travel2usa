@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta info  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="USA travelling website" />
+    <!-- title  -->
+    <title>Travel.2.USA</title>
+    <!-- website icon  -->
+    <link rel="icon" type="image/png" href="./IMG/web-icon.png" />
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Responsive CSS link  -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Google fonts CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Swiper CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="#"><img src="./IMG/logo-white.png" alt="logo-black" /></a>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./trip.html">Trip</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="log-in-btn">
+            <a href="./signin.html"><i class="fa-solid fa-circle-user"></i></a>
+            <i class="ico fa-solid fa-bars-staggered"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main  -->
+    <main>
+      <!-- Hero Section  -->
+      <section class="banner">
+        <video autoplay loop muted plays-inline class="banner-video">
+          <source
+            src="./VIDEO/3578883-hd_1920_1080_30fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+      
+        <div class="container">
+          <div class="row">
+            <div class="banner-title">
+              <h1>See the USA Like Never Before</h1>
+              <p>
+                Pack your bags and set off on a journey across the USA! From
+                iconic landmarks to hidden gems, we create tailor-made travel
+                experiences that highlight the very best of American culture and
+                nature.
+              </p>
+            </div>
+            <div class="banner-form">
+              <h2>Choose your location:</h2>
+              <form>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Destination Name"
+                />
+                <input type="date" class="form-control" placeholder="Date" />
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Price (₹)"
+                />
+                <input type="submit" class="btn" value="Search" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured section  -->
+      <section class="featured">
+        <div class="container">
+          <div class="row">
+            <div class="featured-head">
+              <span class="sm-title">Spotlight on stunning places</span>
+              <h2 class="bg-title">Featured places</h2>
+            </div>
+            <div class="featured-row">
+              <div class="row-cards">
+                <div class="card" id="card-1">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Las Vegas, Nevada
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Las Vegas, Nevada
+                    </h3>
+                    <p>
+                      A vibrant destination known for its entertainment,
+                      casinos, nightlife, and proximity to natural wonders like
+                      the Grand Canyon.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" id="card-2">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> New York City, New
+                    York
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> New York City,
+                      New York
+                    </h3>
+                    <p>
+                      The ultimate metropolis with world-famous landmarks like
+                      the Statue of Liberty, Central Park, Times Square, and
+                      Broadway.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" id="card-3">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Grand Canyon,
+                    Arizona
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Grand Canyon,
+                      Arizona
+                    </h3>
+                    <p>
+                      One of the world’s natural wonders, the Grand Canyon
+                      offers breathtaking views and a variety of outdoor
+                      activities like hiking, rafting.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row-cards">
+                <div class="card" id="card-4">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Hawaii, (Maui &
+                    Oahu)
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Hawaii, (Maui &
+                      Oahu)
+                    </h3>
+                    <p>
+                      A tropical paradise with stunning beaches, volcanoes, and
+                      lush rainforests. Ideal for relaxation, adventure, and
+                      Hawaiian culture.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" id="card-5">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Yellowstone
+                    National Park, Wyoming
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Yellowstone
+                      National Park, Wyoming
+                    </h3>
+                    <p>
+                      America's first national park, known for its geothermal
+                      wonders, including geysers and hot springs.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" id="card-6">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Orlando, Florida
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Orlando, Florida
+                    </h3>
+                    <p>
+                      The theme park capital of the world, home to Walt Disney
+                      World and Universal Studios. A favorite for families and
+                      thrill-seekers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row-cards">
+                <div class="card" id="card-7">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Miami, Florida
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Miami, Florida
+                    </h3>
+                    <p>
+                      Miami is a vibrant coastal city known for its stunning
+                      beaches, diverse culture, and lively nightlife.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" id="card-8">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Texas, USA
+                  </h3>
+                  <div class="card-content">
+                    <h3><i class="fa-solid fa-location-dot"></i> Texas, USA</h3>
+                    <p>
+                      Texas, the second-largest state in the U.S., is known for
+                      its diverse landscapes, rich history, and unique cultural
+                      blend.
+                    </p>
+                  </div>
+                </div>
+                <div class="card" id="card-9">
+                  <h3 id="card-name">
+                    <i class="fa-solid fa-location-dot"></i> Los Angeles,
+                    California
+                  </h3>
+                  <div class="card-content">
+                    <h3>
+                      <i class="fa-solid fa-location-dot"></i> Los Angeles,
+                      California
+                    </h3>
+                    <p>
+                      Los Angeles, the entertainment capital of the world, is a
+                      sprawling city known for its iconic landmarks, sunny
+                      beaches, and vibrant culture.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services section  -->
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="row-head">
+              <span class="sm-heading">Know about</span>
+              <h2>Our services</h2>
+            </div>
+            <div class="row-content">
+              <div class="card">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>Luxurious hotels</h3>
+                <p>
+                  High-end accommodations that offer top-notch amenities and
+                  services to provide a luxurious experience.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <div class="card">
+                <i class="fa-solid fa-map"></i>
+                <h3>Guidance</h3>
+                <p>
+                  Planning a trip can be exciting but sometimes overwhelming. To
+                  ensure a hassle-free journey.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <div class="card">
+                <i class="fa-solid fa-money-bill"></i>
+                <h3>Affordable price</h3>
+                <p>
+                  Enjoy a cozy stay without breaking the bank. Our rooms offer
+                  modern amenities and unbeatable prices.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials section  -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="row-head">
+              <h2>What our clients say about us</h2>
+            </div>
+            <div class="row-content">
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <p>
+                      <i class="q-left fa-solid fa-quote-left"></i> This travel
+                      website made planning my vacation a breeze! From booking
+                      flights to finding the perfect hotel, everything was
+                      seamless. The customer service was top-notch, and I even
+                      got great recommendations for local attractions.
+                      <i class="q-right fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Lara Jones</h3>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>
+                      <i class="q-left fa-solid fa-quote-left"></i> I was able
+                      to find amazing deals on flights and accommodations that I
+                      couldn’t find anywhere else. The site is user-friendly,
+                      and I appreciated the detailed information about each
+                      destination. My trip was fantastic thanks to their
+                      excellent service!
+                      <i class="q-right fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>David Carter</h3>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>
+                      <i class="q-left fa-solid fa-quote-left"></i> As a
+                      first-time traveler, I was nervous about planning my trip,
+                      but this website made it so easy. Their guides and
+                      suggestions were incredibly helpful, and I felt confident
+                      every step of the way. I had a great experience and will
+                      be using this site again!
+                      <i class="q-right fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Richardo Evans</h3>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>
+                      <i class="q-left fa-solid fa-quote-left"></i> I had a good
+                      experience booking my vacation, but I wish the site
+                      offered more customizable options for certain packages.
+                      Overall, the service was reliable, and I appreciated the
+                      timely customer support when I had questions.
+                      <i class="q-right fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Gemma Bell</h3>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>
+                      <i class="q-left fa-solid fa-quote-left"></i> I’ve used
+                      several travel websites before, but this one exceeded all
+                      my expectations. It had everything I needed, from great
+                      deals to travel tips. The booking process was smooth, and
+                      my trip turned out perfectly. I’ll definitely be
+                      recommending it to friends!
+                      <i class="q-right fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Martin Ward</h3>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>
+                      <i class="q-left fa-solid fa-quote-left"></i>I booked a
+                      last-minute trip through this site and was impressed by
+                      the affordable options. The booking process was
+                      straightforward, and I found some great hotel deals. The
+                      only downside was flight options were limited.
+                      <i class="q-right fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Eli Hughes</h3>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Review section  -->
+      <section class="review">
+        <video autoplay loop muted plays-inline class="back-video">
+          <source
+            src="./VIDEO/12521655_1920_1080_24fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="container">
+          <div class="row">
+            <h2>Share your review</h2>
+            <div class="review-form">
+              <form>
+                <textarea
+                  name="text"
+                  id="text"
+                  placeholder="Write your review here..."
+                ></textarea
+                ><br />
+                <input type="text" placeholder="Your name" required />
+                <p>Rate us</p>
+                <div class="rating">
+                  <i class="star fa-solid fa-star"></i>
+                  <i class="star fa-solid fa-star"></i>
+                  <i class="star fa-solid fa-star"></i>
+                  <i class="star fa-solid fa-star"></i>
+                  <i class="star fa-solid fa-star"></i>
+                </div>
+                <input type="submit" value="Upload" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Follow section  -->
+      <section class="follow-us">
+        <div class="container">
+          <div class="row">
+            <div class="headings">
+              <h2>Follow us on <span class="highlight">#instagram</span></h2>
+              <p><i class="ico fa-brands fa-instagram"></i> travel_2_usa</p>
+            </div>
+            <div class="posts">
+              <figure id="img1">
+                <img src="./IMG/post1.jpg" alt="post1" />
+              </figure>
+              <figure id="img2">
+                <img src="./IMG/post2.jpg" alt="post2" />
+              </figure>
+              <figure id="img3">
+                <img src="./IMG/post3.jpg" alt="post3" />
+              </figure>
+              <figure id="img4">
+                <img src="./IMG/post4.jpg" alt="post4" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQs section  -->
+      <section class="faq-s">
+        <div class="container">
+          <div class="row">
+            <div class="head">
+              <h2>Frequently asked questions</h2>
+              <p>Here some frequently asked questions by happy travelers</p>
+            </div>
+            <!-- Accordian - -->
+            <div class="wrap">
+              <div class="faq">
+                <div class="box">
+                  <div class="ques">
+                    <h3>How do I book a trip on your website?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      You can easily book your trip through our website by
+                      selecting your destination, travel dates, and preferences.
+                      Once you choose a package or customize your trip.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="ques">
+                    <h3>What payment methods do you accept?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      We accept all major credit and debit cards, as well as
+                      digital payment options like PayPal. You can choose the
+                      most convenient payment method at checkout.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="ques">
+                    <h3>Do you provide 24/7 customer support?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      Yes, we offer 24/7 customer support to assist you
+                      throughout your journey. Whether it’s booking assistance,
+                      changes to your itinerary, or in-trip support, our team is
+                      always available.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="ques">
+                    <h3>Do you offer group discounts?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      Yes, we provide special discounts for groups, including
+                      corporate travel, family vacations, and group tours.
+                      Contact us for more information.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="ques">
+                    <h3>Are there any hidden fees?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      No, we believe in transparency. All fees are clearly
+                      stated during the booking process, and there are no hidden
+                      charges.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="ques">
+                    <h3>What are your cancellation and refund policies?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      Our cancellation policy varies based on the type of
+                      booking and services. You can review the specific
+                      cancellation terms when booking or contact our team for
+                      details.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="ques">
+                    <h3>Do you offer travel insurance?</h3>
+                  </div>
+                  <div class="ans">
+                    <p>
+                      Yes, we provide travel insurance options to protect your
+                      trip from unforeseen events like cancellations, medical
+                      emergencies, or trip interruptions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-info">
+              <figure>
+                <img src="./IMG/logo-white.png" alt="logo-white" />
+              </figure>
+              <p>
+                Dreaming of a road trip along Route 66, exploring the wonders of
+                Yellowstone, or soaking in the lights of Las Vegas? Whatever
+                your USA travel dream is, we’ll make it a reality. Start
+                planning today!
+              </p>
+            </div>
+            <div class="footer-form">
+              <p class="head">Subscribe for newsletter!</p>
+              <form>
+                <input type="email" placeholder="Enter your email" required />
+              </form>
+              <a href="#">Subscribe</a>
+            </div>
+            <div class="footer-btns">
+              <p class="head">Follow us on</p>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-text">
+            <p>&copy; 2024 Travel.2.USA. All rights reserved.</p>
+            <div class="btns">
+              <ul>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <!-- Jquery CDN  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Accordian JS link  -->
+    <script src="./JS/script.jquery.js"></script>
+
+    <!-- review star  -->
+    <script>
+      $(document).ready(function () {
+        let counter = 0;
+        $(".star").click(function () {
+          if (counter === 0) {
+            $(this).css("color", "rgb(255, 200, 2)");
+            counter = 1;
+          } else {
+            $(this).css("color", "#d6d3d3");
+            counter = 0;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

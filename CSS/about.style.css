@@ -1,0 +1,264 @@
+/* ====================== About Banner ============================ */
+.about-banner {
+  min-height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.536)),
+    url(../IMG/about-us-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.about-banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.about-banner .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.about-banner .container .row h1 {
+  font-size: 100px;
+  color: #fff;
+  letter-spacing: 2px;
+  animation: fade-in-top 1.8s;
+  animation-timing-function: ease;
+}
+@keyframes fade-in-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.about-banner .container .row p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 2% 5%;
+  line-height: 30px;
+}
+.about-banner .container .row p span {
+  display: block;
+  font-size: 27px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* ====================== about us section ================== */
+.about-us {
+  min-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.about-video{
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+.about-us .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.about-us .container .row {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-us .container .row h2 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+.about-us .container .row h2 .highlight{
+  text-transform: uppercase;
+  font-size: 75px;
+}
+.about-us .container .row p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* ===================== Story-mission-do section ===================== */
+.story-mission-do {
+  min-height: 1400px;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(../IMG/about.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.story-mission-do .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.story-mission-do .container .row {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.story-mission-do .container .row .row-content {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.story-mission-do .container .row .row-content h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 5px;
+  padding: 20px 0;
+  border-bottom: 2px solid #fff;
+}
+.story-mission-do .container .row .row-content p {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  padding: 20px 0;
+  line-height: 30px;
+}
+
+/* ======================== Team section =========================== */
+.team {
+  height: 950px;
+  background-color: #f7f7f7;
+}
+.team .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team .container .row {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.team .container .row .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+}
+.team .container .row .heading h2 {
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 4px;
+  color: #3a3333;
+  text-align: center;
+}
+.team .container .row .heading p {
+  text-align: center;
+  font-size: 20px;
+}
+.team .container .row .team-members {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.team .container .row .team-members .member {
+  width: 23%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.team .container .row .team-members .member .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 35%;
+  align-items: center;
+  padding: 5%;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 100%;
+  transition: all 0.4s ease;
+}
+.team .container .row .team-members .member:hover {
+  .content {
+    top: 68%;
+  }
+}
+.team .container .row .team-members .member .content h3 {
+  font-size: 25px;
+  color: #fff;
+}
+.team .container .row .team-members .member .content p {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+.team .container .row .team-members .member .content ul {
+  display: flex;
+}
+.team .container .row .team-members .member .content ul li {
+  padding: 0 8px;
+}
+.team .container .row .team-members .member .content ul li a i {
+  color: #fff;
+  font-size: 20px;
+}
+.team .container .row .team-members .member .content ul li a i:hover {
+  color: #0fb8b8;
+  transition: all 0.3s ease;
+}
+
+.team .container .row .team-members #person-1 {
+  background: linear-gradient(rgba(74, 74, 74, 0.35), rgba(50, 49, 49, 0.259)),
+    url(../IMG/member-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team .container .row .team-members #person-2 {
+  background: linear-gradient(rgba(74, 74, 74, 0.35), rgba(50, 49, 49, 0.259)),
+    url(../IMG/member-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team .container .row .team-members #person-3 {
+  background: linear-gradient(rgba(74, 74, 74, 0.35), rgba(50, 49, 49, 0.259)),
+    url(../IMG/member-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team .container .row .team-members #person-4 {
+  background: linear-gradient(rgba(74, 74, 74, 0.35), rgba(50, 49, 49, 0.259)),
+    url(../IMG/member-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

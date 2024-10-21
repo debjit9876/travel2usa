@@ -1,0 +1,118 @@
+/* ================== Media query at 1200px =================== */
+
+@media screen and (max-width: 1199px) {
+  /* ================= Blog banner ==================== */
+  .blog-banner .container {
+    width: 95%;
+  }
+  .blog-banner .container .row p {
+    padding: 2% 10%;
+  }
+
+  /* ================ blog posts section  =================== */
+  .blog-posts .container {
+    width: 95%;
+  }
+}
+
+/* ================= Media query at 1024px ==================== */
+
+@media screen and (max-width: 1024px) {
+  /* ================= Blog banner ==================== */
+  .blog-banner .container .row p {
+    padding: 2% 9%;
+  }
+
+  /* ================== blog posts section ==================== */
+  .blog-posts {
+    height: 1900px;
+  }
+  .blog-posts .container .row .row-info .blog-row .card {
+    width: 32%;
+  }
+}
+
+/* ================= Media query at 992px ==================== */
+@media screen and (max-width: 991px) {
+  /* ================== blog posts section ==================== */
+}
+
+/* ================= Media query at 768px ==================== */
+@media screen and (max-width: 767px) {
+  /* ============== blog posts section =============== */
+  .blog-posts .container .row .row-info .blog-row .card {
+    padding: 2%;
+  }
+  /* ============== blog posts section =============== */
+  .blog-posts .container .row .row-info .blog-row #card3,
+  .blog-posts .container .row .row-info .blog-row #card6,
+  .blog-posts .container .row .row-info .blog-row #card9 {
+    display: none;
+  }
+  .blog-posts .container .row .row-info .blog-row #card1,
+  .blog-posts .container .row .row-info .blog-row #card2,
+  .blog-posts .container .row .row-info .blog-row #card4,
+  .blog-posts .container .row .row-info .blog-row #card5,
+  .blog-posts .container .row .row-info .blog-row #card7,
+  .blog-posts .container .row .row-info .blog-row #card8 {
+    width: 48%;
+  }
+}
+
+/* ================= Media query at 576px ==================== */
+@media screen and (max-width: 575px) {
+  .blog-posts .container .row .heading span {
+    font-size: 16px;
+  }
+  .blog-posts .container .row .heading h2 {
+    font-size: 45px;
+  }
+}
+
+/* ================= Media query at 480px ==================== */
+@media screen and (max-width: 480px) {
+  /* ================= blog banner ================= */
+  .blog-banner .container .row p {
+    padding: 0;
+  }
+  /* ============== blog posts section =============== */
+  .blog-posts {
+    height: 2000px;
+  }
+  .blog-posts .container .row .heading {
+    height: 15%;
+  }
+  .blog-posts .container .row .heading h2 {
+    text-align: center;
+  }
+  .blog-posts .container .row .row-info {
+    height: 85%;
+    justify-content: center;
+  }
+  .blog-posts .container .row .row-info #row3 {
+    display: none;
+  }
+  .blog-posts .container .row .row-info #row1,
+  .blog-posts .container .row .row-info #row2 {
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+  }
+  .blog-posts .container .row .row-info .blog-row .card {
+    width: 100% !important;
+    height: 48%;
+    padding: 3%;
+  }
+}
+
+/* ================= Media query at 350px ==================== */
+@media screen and (max-width: 350px) {
+  /* ==================== blog posts section ================== */
+  .blog-posts {
+    height: 2300px;
+  }
+  .blog-posts .container .row .row-info .blog-row .card {
+    height: 45%;
+  }
+}

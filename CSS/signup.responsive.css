@@ -1,0 +1,168 @@
+/*============== Media query at 1200px ============= */
+@media screen and (max-width: 1199px) {
+  /*============== signup banner ============== */
+  .singup-banner .container {
+    width: 95%;
+  }
+
+  /*================= signup form ================= */
+  .signup-form .container {
+    width: 95%;
+  }
+  .signup-form .container .row .row-left {
+    width: 42%;
+  }
+  .signup-form .container .row .row-left h2 {
+    font-size: 50px;
+  }
+  .signup-form .container .row .row-left ul li a i {
+    font-size: 20px;
+  }
+  .signup-form .container .row .row-left form input[type="submit"] {
+    padding: 15px 25px;
+    font-size: 20px;
+  }
+  .signup-form .container .row .row-right {
+    height: 75%;
+    width: 42%;
+  }
+  .signup-form .container .row .row-right h4 {
+    font-size: 17px;
+  }
+  .signup-form .container .row .row-right p {
+    font-size: 15px;
+  }
+}
+
+/*============== Media query at 1024px ============= */
+@media screen and (max-width: 1024px) {
+}
+
+/*============== Media query at 992px ============= */
+@media screen and (max-width: 991px) {
+  /*================= signup form ================= */
+  .signup-form {
+    height: 700px;
+  }
+  .signup-form .container .row .row-left {
+    width: 45%;
+    height: 80%;
+  }
+  .signup-form .container .row .row-left h2 {
+    font-size: 40px;
+  }
+  .signup-form .container .row .row-left ul li {
+    padding-right: 20px;
+  }
+  .signup-form .container .row .row-left p {
+    font-size: 16px;
+  }
+  .signup-form .container .row .row-left form input[type="text"] {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .signup-form .container .row .row-left form input[type="email"] {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .signup-form .container .row .row-left form input[type="password"] {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .signup-form .container .row .row-left form input::placeholder {
+    font-size: 18px;
+  }
+  .signup-form .container .row .row-left form a {
+    font-size: 16px;
+  }
+  .signup-form .container .row .row-left form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .signup-form .container .row .row-right {
+    width: 47%;
+    padding: 13px;
+  }
+  .signup-form .container .row .row-left .bottom {
+    width: 100%;
+    font-size: 14px;
+  }
+  .signup-form .container .row .row-right {
+    height: 85%;
+  }
+  .signup-form .container .row .row-right h3 {
+    font-size: 30px;
+  }
+  .signup-form .container .row .row-right h4 {
+    padding-bottom: 20px;
+  }
+  .signup-form .container .row .row-right p {
+    font-size: 14px;
+  }
+  .signup-form .container .row .row-right a {
+    font-size: 14px;
+  }
+}
+
+/*============== Media query at 768px ============= */
+@media screen and (max-width: 767px) {
+  /*================= signup form ================= */
+  .signup-form {
+    height: 1200px;
+  }
+  .signup-form .container .row {
+    flex-direction: column-reverse;
+  }
+  .signup-form .container .row .row-left {
+    height: 48%;
+    width: 75%;
+    align-items: center;
+  }
+  .signup-form .container .row .row-left ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .signup-form .container .row .row-left ul li {
+    padding: 0;
+  }
+  .signup-form .container .row .row-left form {
+    align-items: center;
+  }
+  .signup-form .container .row .row-left .bottom {
+    text-align: center;
+  }
+  .signup-form .container .row .row-right {
+    height: 45%;
+    width: 75%;
+  }
+}
+
+/*============== Media query at 576px ============= */
+@media screen and (max-width: 575px) {
+}
+
+/*============== Media query at 480px ============= */
+@media screen and (max-width: 480px) {
+  /*========== signup banner =============== */
+.signup-banner .container .row h1 {
+    font-size: 70px;
+}
+  /*================= signup form ================= */
+  .signup-form .container .row .row-left {
+    width: 100%;
+  }
+  .signup-form .container .row .row-right {
+    width: 100%;
+  }
+  .signup-form .container .row .row-right h3 {
+    font-size: 23px;
+  }
+  .signup-form .container .row .row-right h4 {
+    font-size: 14px;
+  }
+}
+
+/*============== Media query at 350px ============= */
+@media screen and (max-width: 350px) {
+}

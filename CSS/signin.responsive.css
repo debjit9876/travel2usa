@@ -1,0 +1,133 @@
+/*============= Media query at 1200px ================ */
+@media screen and (max-width: 1199px) {
+  /*========== signin banner section ============= */
+  .signin-banner .container {
+    width: 95%;
+  }
+
+  /*============== Signin form section =============== */
+  .signin-form {
+    height: 800px;
+  }
+  .signin-form .container {
+    width: 95%;
+  }
+  .signin-form .container .row .row-left .info {
+    height: 26%;
+  }
+  .signin-form .container .row .row-left .info h2 {
+    font-size: 25px;
+  }
+  .signin-form .container .row .row-left .info li {
+    font-size: 15px;
+  }
+  .signin-form .container .row .row-right {
+    height: 77%;
+  }
+}
+
+/*============= Media query at 1024px ================ */
+@media screen and (max-width: 1024px) {
+}
+
+/*============= Media query at 992px ================ */
+@media screen and (max-width: 991px) {
+  /*============== Signin form section =============== */
+  .signin-form {
+    height: 700px;
+  }
+  .signin-form .container .row .row-left {
+    width: 45%;
+  }
+  .signin-form .container .row .row-right {
+    width: 45%;
+  }
+  .signin-form .container .row .row-right ul li {
+    padding-right: 20px;
+  }
+  .signin-form .container .row .row-right ul li a i {
+    font-size: 20px;
+  }
+  .signin-form .container .row .row-right p {
+    font-size: 16px;
+  }
+  .signin-form .container .row .row-right form a {
+    font-size: 16px;
+  }
+  .signin-form .container .row .row-right form input[type="text"] {
+    width: 100%;
+  }
+  .signin-form .container .row .row-right form input[type="password"] {
+    width: 100%;
+  }
+  .signin-form .container .row .row-right form input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+/*============= Media query at 768px ================ */
+@media screen and (max-width: 767px) {
+  /*============== Signin form section =============== */
+  .signin-form {
+    height: 1200px;
+  }
+  .signin-form .container .row {
+    flex-direction: column;
+  }
+  .signin-form .container .row .row-left {
+    height: 45%;
+    width: 70%;
+  }
+  .signin-form .container .row .row-right {
+    height: 45%;
+    width: 70%;
+    align-items: center;
+  }
+  .signin-form .container .row .row-right form {
+    align-items: center;
+  }
+  .signin-form .container .row .row-right ul {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .signin-form .container .row .row-right ul li {
+    padding: 0;
+  }
+}
+
+/*============= Media query at 576px ================ */
+@media screen and (max-width: 575px) {
+  /*============== Signin form section =============== */
+  .signin-form .container .row .row-left {
+    width: 80%;
+  }
+  .signin-form .container .row .row-right {
+    width: 80%;
+  }
+}
+
+/*============= Media query at 480px ================ */
+@media screen and (max-width: 480px) {
+  /*============= signin banner ============= */
+  .signin-banner .container .row h1 {
+    font-size: 70px;
+  }
+  /*============== Signin form section =============== */
+  .signin-form .container .row .row-left {
+    width: 100%;
+  }
+  .signin-form .container .row .row-left .info {
+    padding: 8px;
+  }
+  .signin-form .container .row .row-left .info ul li {
+    font-size: 14px;
+  }
+  .signin-form .container .row .row-right {
+    width: 100%;
+  }
+}
+
+/*============= Media query at 350px ================ */
+@media screen and (max-width: 350px) {
+}

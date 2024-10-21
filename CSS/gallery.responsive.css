@@ -1,0 +1,171 @@
+/* ================== Media query at 1200px =============== */
+
+@media screen and (max-width: 1199px) {
+  /* ================ Gallery banner ===================== */
+  .gallery-banner .container {
+    width: 95%;
+  }
+  .gallery-banner .container .row p {
+    font-size: 18px;
+    padding: 2% 10%;
+  }
+
+  /* ================= Photos section =================== */
+  .photos .container {
+    width: 95%;
+  }
+
+  /* ================ Popular places section  ====================== */
+  .popular-places {
+    height: 1300px;
+  }
+  .popular-places .container .row .popular-row .row-img .popular-item:hover {
+    .info {
+      top: 68%;
+      opacity: 1;
+    }
+  }
+  .popular-places .container .row .popular-row .row-img .popular-item .info h3 {
+    font-size: 18px;
+  }
+}
+
+/* ================== Media query at 1024px ====================== */
+
+@media screen and (max-width: 1024px) {
+  /* ============== popular places section ================= */
+  .popular-places .container .row .title span {
+    font-size: 28px;
+  }
+  .popular-places .container .row .title h2 {
+    font-size: 45px;
+  }
+  .popular-places .container .row .popular-row .row-img #card-4 {
+    display: none;
+  }
+  .popular-places .container .row .popular-row .row-img #card-8 {
+    display: none;
+  }
+  .popular-places .container .row .popular-row .row-img #card-1,
+  .popular-places .container .row .popular-row .row-img #card-2,
+  .popular-places .container .row .popular-row .row-img #card-3,
+  .popular-places .container .row .popular-row .row-img #card-5,
+  .popular-places .container .row .popular-row .row-img #card-6,
+  .popular-places .container .row .popular-row .row-img #card-7 {
+    width: 33.33%;
+  }
+}
+
+/* ================== Media query at 768px ========================== */
+
+@media screen and (max-width: 767px) {
+  /* ================ Gallery banner ===================== */
+  .gallery-banner .container .row h1 {
+    font-size: 85px;
+  }
+  .gallery-banner .container .row p {
+    font-size: 17px;
+  }
+
+  /* ============= popular items section =================== */
+  .popular-places .container .row .title span {
+    font-size: 20px;
+  }
+  .popular-places .container .row .title h2 {
+    font-size: 40px;
+  }
+  .popular-places .container .row .popular-row .row-img #card-3,
+  .popular-places .container .row .popular-row .row-img #card-7 {
+    display: none;
+  }
+  .popular-places .container .row .popular-row .row-img #card-1,
+  .popular-places .container .row .popular-row .row-img #card-2,
+  .popular-places .container .row .popular-row .row-img #card-5,
+  .popular-places .container .row .popular-row .row-img #card-6 {
+    width: 50%;
+  }
+}
+
+/* =================== Media query at 576px ======================== */
+
+@media screen and (max-width: 575px) {
+  /* ================ Gallery banner ===================== */
+  .gallery-banner .container .row p {
+    width: 100%;
+    padding: 2% 0;
+  }
+
+  /* ============= popular items section =================== */
+  .popular-places .container .row .title span {
+    font-size: 20px;
+  }
+  .popular-places .container .row .title h2 {
+    font-size: 40px;
+  }
+  .popular-places .container .row .popular-row .row-img .popular-item .info p {
+    font-size: 13px;
+  }
+  .popular-places .container .row .popular-row .row-img .info ul li a {
+    font-size: 13px;
+}
+}
+
+/* =================== Media query at 480px ======================== */
+
+@media screen and (max-width: 480px) {
+  /* ================ Gallery banner ===================== */
+  .gallery-banner .container .row h1 {
+    font-size: 60px;
+  }
+  .gallery-banner .container .row p {
+    font-size: 16px;
+  }
+
+  /* ================= Photos section ===================== */
+  .photos .container .row .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ================ popular places section ================== */
+  .popular-places .container .row .title span {
+    font-size: 15px;
+  }
+  .popular-places .container .row .title h2 {
+    font-size: 30px;
+  }
+  .popular-places .container .row .popular-row .row-img #card-1,
+  .popular-places .container .row .popular-row .row-img #card-5 {
+    width: 100%;
+  }
+  .popular-places .container .row .popular-row .row-img #card-2,
+  .popular-places .container .row .popular-row .row-img #card-6 {
+    display: none;
+  }
+}
+
+/* =================== Media query at 350px ======================== */
+
+@media screen and (max-width: 350px) {
+  /* ================ Gallery banner ===================== */
+  .gallery-banner .container .row {
+    justify-content: end;
+    padding-bottom: 30px;
+  }
+  .gallery-banner .container .row h1 {
+    font-size: 50px;
+  }
+  .gallery-banner .container .row p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /* ================== popular places section ======================= */
+  .popular-places .container .row .title span {
+    font-size: 13px;
+  }
+  .popular-places .container .row .title h2 {
+    font-size: 30px;
+  }
+}

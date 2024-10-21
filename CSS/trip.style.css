@@ -1,0 +1,369 @@
+/* ====================== Trip Banner ============================ */
+.trip-banner {
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.back-video{
+  position: absolute;
+  z-index: -1;
+}
+.trip-banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.trip-banner .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.trip-banner .container .row h1 {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: fade-in-top 1.8s;
+  animation-timing-function: ease;
+}
+@keyframes fade-in-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.trip-banner .container .row p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 2% 15%;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/* ====================== Trip ideas section ======================= */
+.trip-ideas-search {
+  height: 200px;
+}
+.trip-ideas-search .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trip-ideas-search .container .row {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.trip-ideas-search .container .row .form {
+  height: 40%;
+  width: 60%;
+}
+.trip-ideas-search .container .row .form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.trip-ideas-search .container .row .form form input[type="text"] {
+  width: 100%;
+  padding: 2% 8%;
+  border: none;
+  border: 2px solid #000;
+  font-size: 25px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  border-radius: 55px;
+  background-color: #f7f7f7;
+}
+.trip-ideas-search .container .row .form form input::placeholder {
+  font-size: 25px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+.trip-ideas-search .container .row .form form a {
+  position: absolute;
+  bottom: 31%;
+  right: 5%;
+}
+.trip-ideas-search .container .row .form form a i {
+  color: #1993bc;
+  font-size: 30px;
+}
+
+/* ================== Popular trip section ========================== */
+
+.popular-trip {
+  height: 600px;
+  background-color: #f7f7f7;
+}
+.popular-trip .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% !important;
+  width: 100%;
+}
+.popular-trip .container .row {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.popular-trip .container .row h2 {
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #464141;
+}
+.popular-trip .container .row .row-content {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-trip .container .row .row-content .card {
+  width: 24%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #fff;
+  box-shadow: 0 0 10px #908b8b;
+  border-radius: 0 16px;
+}
+.popular-trip .container .row .row-content .card figure {
+  width: 100%;
+  border-radius: 0 16px;
+  overflow: hidden;
+}
+.popular-trip .container .row .row-content .card figure img {
+  width: 100%;
+  border-radius: 0 16px;
+  transition: all 0.3s ease;
+}
+.popular-trip .container .row .row-content .card figure img:hover {
+  transform: scale(1.1);
+}
+.popular-trip .container .row .row-content .card h3 {
+  color: #1993bc;
+  font-size: 22px;
+}
+
+/* ===================== featured trip section ===================== */
+.featured-trip {
+  min-height: 650px;
+  position: relative;
+  overflow: hidden;
+}
+.featured-video{
+  position: absolute;
+  z-index: -1;
+}
+.featured-trip .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured-trip .container .row {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.featured-trip .container .row .headings{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.featured-trip .container .row .headings h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+}
+.featured-trip .container .row .featured-content {
+  width: 100%;
+  height: 58%;
+  display: flex;
+  justify-content: space-between;
+}
+.featured-trip .container .row .featured-content .card {
+  width: 30%;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffffc6;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px #464141;
+  border-radius: 0 20px;
+}
+.featured-trip .container .row .featured-content .card figure {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0 20px;
+}
+.featured-trip .container .row .featured-content .card figure img {
+  width: 100%;
+  border-radius: 0 20px;
+  transition: all 0.3s ease;
+}
+.featured-trip .container .row .featured-content .card figure img:hover {
+  transform: scale(1.1);
+}
+.featured-trip .container .row .featured-content .card h3 {
+  color: #1993bc;
+  padding: 10px 0;
+}
+
+/* ================ Off beaten trip section ===================== */
+.off-beaten {
+  height: 650px;
+  background-color: #f7f7f7;
+}
+.off-beaten .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.off-beaten .container .row {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.off-beaten .container .row h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #464141;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.off-beaten .container .row .row-content {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.off-beaten .container .row .row-content .card {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  background-color: #fff;
+  box-shadow: 0 0 20px #464141;
+  border-radius: 0 20px;
+}
+.off-beaten .container .row .row-content .card figure {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0 20px;
+}
+.off-beaten .container .row .row-content .card figure img {
+  width: 100%;
+  border-radius: 0 20px;
+  transition: all 0.3s ease;
+}
+.off-beaten .container .row .row-content .card figure img:hover {
+  transform: scale(1.1);
+}
+.off-beaten .container .row .row-content .card h3 {
+  font-size: 25px;
+  color: #1993bc;
+}
+.off-beaten .container .row .row-content .card p {
+  font-size: 18px;
+  letter-spacing: 1px; 
+}
+
+/* ================== explore all section ================== */
+.explore-all {
+  min-height: 1000px;
+  overflow: hidden;
+  position: relative;
+}
+.explore-video{
+  position: absolute;
+  z-index: -1;
+}
+.explore-all .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore-all .container .row {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.explore-all .container .row h2 {
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-shadow: #3a3333;
+  padding: 30px 0;
+  text-align: center;
+}
+.explore-all .container .row .row-content {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.explore-all .container .row .row-content .card {
+  width: 23%;
+  background-color: #fffffff0;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1%;
+  border-radius: 0 20px;
+}
+.explore-all .container .row .row-content .card figure {
+  width: 100%;
+  border-radius: 0 20px;
+  overflow: hidden;
+}
+.explore-all .container .row .row-content .card figure img {
+  width: 100%;
+  border-radius: 0 20px;
+  transition: all 0.3s ease;
+}
+.explore-all .container .row .row-content .card figure img:hover {
+  transform: scale(1.1);
+}
+.explore-all .container .row .row-content .card h3 {
+  color: #1993bc;
+  font-size: 22px;
+  padding: 10px 0;
+}
+.explore-all .container .row .row-content .card p{
+  padding: 5px 0;
+}

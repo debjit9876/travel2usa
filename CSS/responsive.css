@@ -1,0 +1,1002 @@
+/* ================== Media query at 1200px ======================= */
+
+@media screen and (max-width: 1199px) {
+  /* ================ navbar ============== */
+  .navbar .container {
+    width: 95%;
+  }
+  .navbar .container .log-in-btn {
+    justify-content: end;
+  }
+
+  /* ================ banner ====================== */
+  .banner .container {
+    width: 95%;
+  }
+  .banner .container .row .banner-title h1 {
+    width: 60%;
+  }
+  .banner .container .row .banner-title p {
+    width: 70%;
+  }
+  .banner .container .row .banner-form {
+    width: 88%;
+  }
+  .banner .container .row .banner-form form input[type="date"],
+  .banner .container .row .banner-form form input[type="text"],
+  .banner .container .row .banner-form form input[type="number"] {
+    font-size: 16px;
+  }
+  .banner .container .row .banner-form form input::placeholder {
+    font-size: 16px;
+  }
+
+  /* =============== featured section ============== */
+  .featured .container {
+    width: 95%;
+  }
+  .featured .container .row .featured-row .row-cards .card h3 {
+    font-size: 17px;
+  }
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 45%;
+      opacity: 1;
+    }
+  }
+  .featured .container .row .featured-row .row-cards .card .card-content p {
+    font-size: 14px;
+  }
+
+  /* ===================== services section ========================= */
+  .services .container {
+    width: 95%;
+  }
+  .services .container .row .row-content .card {
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+
+  /* ================ testimonials section ====================== */
+  .testimonials .container {
+    width: 95%;
+  }
+  .swiper {
+    width: 100%;
+  }
+
+  /* ==================== review section ======================== */
+  .review .container {
+    width: 95%;
+  }
+
+  /* ===================== follow section ========================= */
+  .follow-us .container {
+    width: 95%;
+  }
+
+  /* ===================== FAQs section =========================== */
+  .faq-s .container {
+    width: 95%;
+  }
+
+  /* ====================== footer ============================ */
+  .footer .container {
+    width: 95%;
+  }
+}
+
+/* ================== Media query at 1024px ======================= */
+
+@media screen and (max-width: 1024px) {
+  /* ================ banner ============== */
+  .banner .container .row {
+    height: 80%;
+    justify-content: space-evenly;
+  }
+  .banner .container .row .banner-title {
+    height: 60%;
+  }
+  .banner .container .row .banner-title p {
+    width: 75%;
+    font-size: 20px;
+  }
+  .banner .container .row .banner-form {
+    width: 90%;
+  }
+  .banner .container .row .banner-form form .btn {
+    padding: 14px 18px;
+  }
+
+  /* =================== featured section =================== */
+  .featured {
+    height: 1100px;
+  }
+  .featured .container .row .featured-head {
+    height: 12%;
+  }
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 30%;
+      opacity: 1;
+    }
+  }
+
+  /* ================= testimonials section ====================== */
+  .testimonials {
+    height: 600px;
+  }
+  .testimonials .container .row .row-head h2 {
+    font-size: 45px;
+  }
+  .swiper-slide p {
+    font-size: 20px;
+  }
+
+  /*============== review section ================ */
+  .review .container .row .review-form form input[type="submit"] {
+    padding: 20px 30px;
+    width: 32%;
+    font-size: 28px;
+  }
+
+  /*================ follow section ================== */
+  .follow-us {
+    height: 700px;
+  }
+  .follow-us .container .row .posts {
+    height: 38%;
+  }
+
+  /*=============== FAQs section =============== */
+  .faq-s .container .row .wrap {
+    width: 80%;
+  }
+  .faq-s .container .row .wrap .faq {
+    width: 100%;
+  }
+}
+
+/* ================== Media query at 992px ======================= */
+
+@media screen and (max-width: 991px) {
+  /*===================== navbar ==================== */
+  .navbar .container .logo {
+    width: 18%;
+  }
+  .navbar .container .nav-menu ul li {
+    margin: 0 10px;
+  }
+  .navbar .container .nav-menu ul li a {
+    font-size: 18px;
+  }
+  .navbar .container .log-in-btn {
+    width: 10%;
+  }
+
+  /*================== banner ================== */
+  .banner .container .row .banner-title h1 {
+    font-size: 65px;
+  }
+  .banner .container .row .banner-form form .form-control {
+    padding: 10px 15px;
+    width: 26%;
+  }
+
+  /* =================== featured section =================== */
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 25%;
+      opacity: 1;
+    }
+  }
+
+  /*============== services section ====================== */
+  .services .container .row .row-content .card {
+    width: 32%;
+  }
+
+  .services .container .row .row-content .card {
+    h3 {
+      font-size: 25px;
+    }
+  }
+
+  /* ================= testimonials section ================ */
+  .testimonials .container .row .row-head {
+    width: 80%;
+  }
+  .testimonials .container .row .row-head h2 {
+    font-size: 40px;
+  }
+  .testimonials .container .row .row-content {
+    height: 60%;
+  }
+  .swiper-slide {
+    padding: 35px;
+  }
+
+  /*=============== review section =============== */
+  .review .container .row {
+    width: 100%;
+  }
+
+  /* ================= follow section ========================== */
+  .follow-us {
+    height: 700px;
+  }
+  .follow-us .container .row .headings h2 {
+    font-size: 35px;
+  }
+  .follow-us .container .row .headings p {
+    font-size: 25px;
+  }
+  .follow-us .container .row .posts {
+    height: 39%;
+  }
+  .follow-us .container .row .posts figure {
+    width: 31%;
+  }
+  .follow-us .container .row .posts #img4 {
+    display: none;
+  }
+
+  /*============== FAQs section =================== */
+  .faq-s .container .row .head p {
+    font-size: 20px;
+  }
+
+  /*================= footer ===================== */
+  .footer .container .row .footer-info {
+    width: 31%;
+  }
+  .footer .container .row .footer-info p {
+    font-size: 15px;
+  }
+  .footer .container .row .footer-form {
+    width: 31%;
+  }
+}
+
+/* ==================== Media query at 768px ====================== */
+
+@media screen and (max-width: 767px) {
+  /* ================ navbar ============== */
+  .navbar .container {
+    position: relative;
+    width: 100%;
+  }
+  .navbar .container .logo {
+    width: 25%;
+  }
+  .navbar .container .nav-menu ul {
+    position: absolute;
+    display: block;
+    top: 75px;
+    background-color: rgb(15, 184, 184);
+    height: auto;
+    width: 100%;
+    right: 0;
+  }
+  .navbar .container .nav-menu ul li {
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .navbar .container .nav-menu ul li a {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .navbar .container .log-in-btn {
+    width: 25%;
+    justify-content: end;
+  }
+  .navbar .container .log-in-btn .ico {
+    display: inline-block;
+    color: #fff;
+    padding-left: 15%;
+    font-size: 20px;
+  }
+  .navbar .container .nav-menu {
+    display: none;
+  }
+
+  /* ======================= banner ================== */
+  .banner .container .row {
+    height: 80%;
+    justify-content: space-evenly;
+  }
+  .banner .container .row .banner-title {
+    height: 60%;
+  }
+  .banner .container .row .banner-title h1 {
+    font-size: 60px;
+    width: 100%;
+  }
+  .banner .container .row .banner-title p {
+    width: 100%;
+    font-size: 19px;
+  }
+  .banner .container .row .banner-form {
+    width: 95%;
+    height: 25%;
+  }
+  .banner .container .row .banner-form form .form-control {
+    padding: 10px 5px;
+    width: 26%;
+  }
+  .banner .container .row .banner-form form input::placeholder {
+    font-size: 15px;
+  }
+  .banner .container .row .banner-form form .btn {
+    padding: 14px 18px;
+  }
+
+  /* ==================== featured section ========================= */
+  .featured {
+    height: 900px;
+  }
+  .featured .container .row .featured-head {
+    height: 12%;
+  }
+  .featured .container .row .featured-head .sm-title {
+    font-size: 25px;
+  }
+  .featured .container .row .featured-head .bg-title {
+    font-size: 45px;
+  }
+  .featured .container .row .featured-row {
+    height: 80%;
+  }
+  .featured .container .row .featured-row .row-cards #card-3,
+  .featured .container .row .featured-row .row-cards #card-6,
+  .featured .container .row .featured-row .row-cards #card-9 {
+    display: none;
+  }
+  .featured .container .row .featured-row .row-cards .card {
+    width: 48%;
+  }
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 30%;
+      opacity: 1;
+    }
+  }
+  .featured .container .row .featured-row .row-cards .card .card-content p {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  /* ==================== services section ======================== */
+  .services {
+    height: 1000px;
+  }
+  .services .container .row {
+    height: 100%;
+  }
+  .services .container .row .row-head .sm-heading {
+    font-size: 30px;
+  }
+  .services .container .row .row-head h2 {
+    font-size: 45px;
+    letter-spacing: 10px;
+  }
+  .services .container .row .row-content {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .services .container .row .row-content .card {
+    width: 100%;
+    height: 30%;
+  }
+
+  /* ================= testimonials section ================ */
+  .testimonials {
+    height: 560px;
+  }
+  .testimonials .container .row .row-head h2 {
+    font-size: 35px;
+  }
+  .swiper-slide {
+    padding: 20px;
+  }
+  .swiper-slide p {
+    font-size: 18px;
+  }
+
+  /* ====================== review section ======================== */
+  .review .container .row {
+    width: 100%;
+  }
+  .review .container .row h2 {
+    font-size: 50px;
+  }
+  .review .container .row .review-form form input[type="submit"] {
+    padding: 15px 25px;
+    width: 35%;
+    font-size: 25px;
+  }
+
+  /* =================== follow section =================== */
+  .follow-us {
+    height: 500px;
+  }
+  .follow-us .container .row .headings {
+    flex-direction: column !important;
+  }
+  .follow-us .container .row .headings h2 {
+    font-size: 30px;
+  }
+  .follow-us .container .row .headings p {
+    font-size: 25px;
+  }
+
+  /* ================== FAQs section ======================= */
+  .faq-s {
+    height: 900px;
+  }
+  .faq-s .container .row .head {
+    height: 12%;
+  }
+  .faq-s .container .row .head h2 {
+    font-size: 35px;
+  }
+  .faq-s .container .row .head p {
+    font-size: 16px;
+  }
+  .faq-s .container .row .wrap {
+    width: 100%;
+    height: 80%;
+  }
+  .faq-s .container .row .wrap .faq .box h3 {
+    font-size: 20px;
+  }
+  .faq-s .container .row .wrap .faq .box .ans p {
+    font-size: 15px;
+  }
+
+  /* ======================== footer ============================ */
+  .footer {
+    height: 900px;
+  }
+  .footer .container .row {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer .container .row .footer-info {
+    height: 30%;
+    width: 100%;
+    align-items: center;
+  }
+  .footer .container .row .footer-info figure {
+    width: 50%;
+  }
+  .footer .container .row .footer-info p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer .container .row .footer-form {
+    width: 100%;
+    height: 30%;
+    align-items: center;
+  }
+  .footer .container .row .footer-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .container .row .footer-form form input[type="email"] {
+    width: 80%;
+  }
+  .footer .container .row .footer-form a {
+    width: 40%;
+  }
+  .footer .container .row .footer-btns {
+    height: 15%;
+    width: 100%;
+  }
+  .footer .container .footer-text p {
+    font-size: 14px;
+  }
+}
+
+/* ==================== Media query at 576px ====================== */
+
+@media screen and (max-width: 575px) {
+  /* =========================== navbar ========================== */
+  .navbar .container .logo {
+    width: 35%;
+  }
+  /* =========================== banner ========================== */
+  .banner {
+    min-height: 800px;
+  }
+  .banner .container .row {
+    height: 85%;
+    justify-content: space-evenly;
+  }
+  .banner .container .row .banner-title {
+    height: 60%;
+  }
+  .banner .container .row .banner-title h1 {
+    font-size: 37px;
+    width: 100%;
+  }
+  .banner .container .row .banner-title p {
+    width: 100%;
+    font-size: 17px;
+  }
+  .banner .container .row .banner-form {
+    width: 95%;
+    height: 50%;
+  }
+  .banner .container .row .banner-form form {
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+  .banner .container .row .banner-form form .form-control {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .banner .container .row .banner-form form input[type="date"],
+  .banner .container .row .banner-form form input[type="text"],
+  .banner .container .row .banner-form form input[type="number"] {
+    font-size: 15px;
+  }
+  .banner .container .row .banner-form form input::placeholder {
+    font-size: 15px;
+  }
+  .banner .container .row .banner-form form .btn {
+    padding: 14px 18px;
+  }
+
+  /* =================== featured section =================== */
+  .featured {
+    height: 2500px;
+  }
+  .featured .container .row {
+    justify-content: space-evenly;
+  }
+  .featured .container .row .featured-head {
+    height: 5%;
+  }
+  .featured .container .row .featured-row {
+    height: 90%;
+    justify-content: space-evenly;
+  }
+  .featured .container .row .featured-row .row-cards {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .featured .container .row .featured-row .row-cards .card {
+    width: 100%;
+    height: 48% !important;
+  }
+  .featured .container .row .featured-row .row-cards .card h3 {
+    font-size: 25px;
+  }
+  .featured .container .row .featured-row .row-cards .card .card-content p {
+    font-size: 18px;
+  }
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 57%;
+      opacity: 1;
+    }
+  }
+
+  /* ==================== services section ======================== */
+  .services {
+    height: 1200px;
+  }
+  .services .container .row {
+    justify-content: space-evenly;
+  }
+  .services .container .row .row-head {
+    height: 15%;
+  }
+  .services .container .row .row-head .sm-heading {
+    font-size: 25px;
+  }
+  .services .container .row .row-head h2 {
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  .services .container .row .row-content {
+    height: 75%;
+  }
+
+  /* ================= testimonials section ================ */
+  .swiper {
+    width: 100%;
+  }
+  .testimonials .container .row .row-head {
+    width: 100%;
+  }
+
+  /* =================== review section ====================== */
+  .review .container .row h2 {
+    font-size: 50px;
+  }
+  .review .container .row .review-form form input[type="text"] {
+    width: 100%;
+  }
+  .review .container .row .review-form form input[type="submit"] {
+    width: 50%;
+  }
+
+  /* =================== follow section =========================== */
+  .follow-us {
+    height: 2000px;
+  }
+  .follow-us .container .row .headings {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10%;
+  }
+  .follow-us .container .row .posts {
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+  }
+  .follow-us .container .row .posts figure {
+    width: 75%;
+    /* height: 24%; */
+  }
+  .follow-us .container .row .posts figure img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ================== FAQs section ======================= */
+  .faq-s .container .row .head h2 {
+    font-size: 35px;
+  }
+  .faq-s .container .row .head p {
+    font-size: 16px;
+  }
+
+  /* ==================== footer ========================= */
+  .footer .container .row .footer-info p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer .container .footer-text {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .container .footer-text .btns ul li a {
+    font-size: 14px;
+  }
+  .footer .container .footer-text .btns ul {
+    display: flex;
+    width: 100%;
+  }
+  .footer .container .footer-text .btns ul li {
+    padding: 0 10px;
+  }
+}
+
+/* ==================== Media query at 480px ================= */
+
+@media screen and (max-width: 480px) {
+  /* ==================== navbar ====================== */
+  .navbar .container .logo {
+    width: 40%;
+  }
+  .navbar .container .log-in-btn {
+    width: 35%;
+  }
+
+  /* ==================== banner ======================== */
+  .banner {
+    height: 700px;
+  }
+  .banner .container .row .banner-title h1 {
+    font-size: 45px;
+  }
+  .banner .container .row .banner-title p {
+    width: 95%;
+    font-size: 15px;
+    display: none;
+  }
+  .banner .container .row .banner-form {
+    height: 63%;
+  }
+  .banner .container .row .banner-form h2 {
+    font-size: 30px;
+  }
+
+  /* =================== featured section ======================= */
+  .featured {
+    height: 1500px;
+  }
+  .featured .container .row .featured-head .sm-title {
+    font-size: 16px;
+  }
+  .featured .container .row .featured-head .bg-title {
+    font-size: 25px;
+  }
+  .featured .container .row .featured-row {
+    height: 85%;
+  }
+  .featured .container .row .featured-row .row-cards .card h3 {
+    font-size: 20px;
+  }
+  .featured .container .row .featured-row .row-cards .card .card-content p {
+    font-size: 15px;
+  }
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 20%;
+      opacity: 1;
+    }
+  }
+
+  /*================= services section ================ */
+  .services {
+    height: 1000px;
+  }
+  .services .container .row .row-content {
+    height: 80%;
+  }
+  .services .container .row .row-content .card {
+    padding: 3%;
+  }
+
+  /* =================== testimonials section ===================== */
+  .swiper-slide p {
+    font-size: 16px;
+  }
+
+  /* =================== review section ====================== */
+  .review {
+    height: 700px;
+  }
+  .review .container .row h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .review .container .row .review-form form input[type="submit"] {
+    font-size: 25px;
+    padding: 15px 25px;
+  }
+
+  /* =================== follow section  ========================= */
+  .follow-us {
+    height: 1500px;
+  }
+  .follow-us .container .row .headings h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .follow-us .container .row .posts figure {
+    width: 90%;
+  }
+
+  /* ================== FAQs section ======================= */
+  .faq-s .container .row .head h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+  .faq-s .container .row .head p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .faq-s .container .row .wrap {
+    height: 85%;
+  }
+  .faq-s .container .row .wrap .faq .box {
+    padding: 10px 0;
+  }
+  .faq-s .container .row .wrap .faq .box h3 {
+    font-size: 16px;
+  }
+  .faq-s .container .row .wrap .faq .box .ans p {
+    font-size: 14px;
+  }
+
+  /* =================== footer ====================== */
+  .footer{
+    height: 850px;
+  }
+  .footer .container .row .footer-form{
+    height: 35%;
+  }
+  .footer .container .row .footer-info p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer .container .row .footer-form form input[type="email"] {
+    width: 100%;
+  }
+  .footer .container .row .footer-form a {
+    width: 50%;
+  }
+  .footer .container .row .footer-form .head {
+    text-align: center;
+  }
+}
+
+/* ==================== Media query at 350px ================= */
+
+@media screen and (max-width: 350px) {
+  /* ==================== navbar ======================= */
+  .navbar .container .logo {
+    width: 50%;
+    height: 95%;
+  }
+  /*====================== banner ====================== */
+  .banner .container .row {
+    height: 100%;
+    justify-content: center;
+  }
+  .banner .container .row .banner-title {
+    height: 30%;
+  }
+  .banner .container .row .banner-title h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .banner .container .row .banner-title p {
+    width: 100%;
+    font-size: 13px;
+  }
+  .banner .container .row .banner-form {
+    height: 45%;
+    width: 100%;
+  }
+  .banner .container .row .banner-form form {
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+  }
+  .banner .container .row .banner-form h2 {
+    font-size: 23px;
+  }
+  .banner .container .row .banner-form form .form-control {
+    width: 100%;
+  }
+  .banner .container .row .banner-form form input[type="date"],
+  .banner .container .row .banner-form form input[type="text"],
+  .banner .container .row .banner-form form input[type="number"] {
+    font-size: 15px;
+  }
+  .banner .container .row .banner-form form input::placeholder {
+    font-size: 15px;
+  }
+
+  /* =============== featured section =============== */
+  .featured {
+    height: 1600px;
+  }
+  .featured .container .row .featured-head .sm-title {
+    font-size: 16px;
+  }
+  .featured .container .row .featured-head .bg-title {
+    font-size: 25px;
+  }
+  .featured .container .row .featured-row {
+    height: 85%;
+    justify-content: space-evenly;
+  }
+  .featured .container .row .featured-row .row-cards .card h3 {
+    font-size: 16px;
+  }
+  .featured .container .row .featured-row .row-cards .card:hover {
+    .card-content {
+      top: 30%;
+      opacity: 1;
+    }
+  }
+
+  /* ================== services section ========================= */
+  .services {
+    height: 1000px;
+  }
+  .services .container .row .row-head {
+    height: 10%;
+  }
+  .services .container .row .row-head .sm-heading {
+    font-size: 18px;
+  }
+  .services .container .row .row-head h2 {
+    font-size: 25px;
+  }
+  .services .container .row .row-content .card {
+    i {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+  /* =================== testimonials section ===================== */
+  .testimonials {
+    height: 660px;
+  }
+
+  /* ================== review section ========================== */
+  .review {
+    height: 650px;
+  }
+  .review .container .row .review-form form input[type="text"] {
+    padding: 20px 15px;
+    font-size: 20px;
+  }
+  .review .container .row .review-form form input::placeholder {
+    font-size: 20px;
+  }
+  .review .container .row .review-form form p {
+    font-size: 20px;
+  }
+  .review .container .row .review-form form .rating .star {
+    font-size: 20px;
+  }
+  .review .container .row .review-form form input[type="submit"] {
+    font-size: 20px;
+    padding: 15px 25px;
+  }
+
+  /* =================== follow section  ========================= */
+  .follow-us {
+    height: 1400px;
+  }
+  .follow-us .container .row .headings h2 {
+    font-size: 20px;
+  }
+  .follow-us .container .row .posts figure {
+    width: 100%;
+  }
+
+  /* ================== FAQs section ======================= */
+  .faq-s {
+    height: 800px;
+  }
+  .faq-s .container .row {
+    justify-content: space-between !important;
+  }
+  .faq-s .container .row .head {
+    height: 20%;
+  }
+  .faq-s .container .row .head h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .faq-s .container .row .wrap {
+    height: 77%;
+  }
+
+  .footer {
+    height: 900px;
+  }
+  .footer .container .row .footer-info {
+    height: 31%;
+  }
+  .footer .container .row .footer-info figure {
+    width: 60%;
+  }
+  .footer .container .row .footer-form h2 {
+    font-size: 25px;
+  }
+  .footer .container .footer-text p {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}

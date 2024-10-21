@@ -1,0 +1,193 @@
+/*============== Media query at 1200px ================== */
+@media screen and (max-width: 1199px) {
+  /*============== about banner ================ */
+  .about-banner .container {
+    width: 95%;
+  }
+
+  /*============== about us section ================ */
+  .about-us .container {
+    width: 95%;
+  }
+
+  /* ============= Story-mission-do section ============== */
+  .story-mission-do .container {
+    width: 95%;
+  }
+
+  /*================ team section ================== */
+  .team .container {
+    width: 95%;
+  }
+  .team .container .row .heading {
+    height: 23%;
+  }
+  .team .container .row .heading p {
+    font-size: 18px;
+  }
+  .team .container .row .team-members {
+    height: 47%;
+  }
+  .team .container .row .team-members .member {
+    width: 23.5%;
+  }
+}
+
+/*============== Media query at 1024px ================== */
+@media screen and (max-width: 1024px) {
+  /*============== about banner ================ */
+  .about-banner .container .row h1 {
+    font-size: 85px;
+  }
+
+  /*============== about us section ================ */
+  .about-us .container .row h2 {
+    font-size: 65px;
+  }
+  .about-us .container .row h2 .highlight {
+    font-size: 70px;
+  }
+  .about-us .container .row p {
+    font-size: 20px;
+  }
+}
+
+/*============== Media query at 992px ================== */
+@media screen and (max-width: 991px) {
+  /* ============= Story-mission-do section ============== */
+  .story-mission-do .container .row .row-content p {
+    font-size: 18px;
+  }
+
+  /*=============== team section ============== */
+  .team {
+    height: 1000px;
+  }
+  .team .container .row .heading p {
+    font-size: 16px;
+  }
+  .team .container .row .team-members {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 65%;
+  }
+  .team .container .row .team-members .member {
+    width: 30%;
+    height: 47%;
+  }
+  .team .container .row .team-members .member .content {
+    height: 45%;
+  }
+  .team .container .row .team-members .member:hover {
+    .content {
+      top: 56%;
+    }
+  }
+}
+
+/*============== Media query at 768px ================== */
+@media screen and (max-width: 767px) {
+  /*============= about banner ================ */
+  .about-banner .container .row p span {
+    font-size: 24px;
+  }
+  .about-banner .container .row p {
+    font-size: 18px;
+  }
+
+  /*============== about us section ================ */
+  .about-us .container .row h2 {
+    font-size: 55px;
+  }
+  .about-us .container .row h2 .highlight {
+    font-size: 60px;
+  }
+  .about-us .container .row p {
+    font-size: 18px;
+  }
+
+  /*=============== team section ============ */
+  .team .container .row .team-members .member {
+    width: 40%;
+  }
+}
+
+/*============== Media query at 576px ================== */
+@media screen and (max-width: 575px) {
+  /*============= about banner ================ */
+  .about-banner .container .row h1 {
+    font-size: 60px;
+  }
+  .about-banner .container .row p {
+    padding: 0;
+  }
+
+  /*============== about us section ================ */
+  .about-us .container .row h2 {
+    font-size: 45px;
+  }
+  .about-us .container .row h2 .highlight {
+    font-size: 50px;
+  }
+  .about-us .container .row p {
+    font-size: 16px;
+  }
+
+  /* ============== Story-mission-do section =============== */
+  .story-mission-do .container .row .row-content p {
+    font-size: 16px;
+  }
+
+  /*================ team section =================== */
+  .team .container .row .team-members .member {
+    width: 45%;
+  }
+  .team .container .row .team-members .member .content h3 {
+    font-size: 22px;
+  }
+}
+
+/*============== Media query at 480px ================== */
+@media screen and (max-width: 480px) {
+  /*============== about us section ================ */
+  .about-us .container .row h2 {
+    font-size: 35px;
+  }
+  .about-us .container .row h2 .highlight {
+    font-size: 40px;
+  }
+  .about-us .container .row p {
+    font-size: 16px;
+  }
+
+  /* ============== Story-mission-do section =============== */
+  .story-mission-do .container .row .row-content h2 {
+    font-size: 40px;
+  }
+
+  /*================ team section =================== */
+  .team {
+    height: 1800px;
+  }
+  .team .container .row .heading h2 {
+    font-size: 50px;
+  }
+  .team .container .row .team-members {
+    height: 75%;
+  }
+  .team .container .row .team-members .member {
+    width: 75%;
+    height: 23%;
+  }
+}
+
+/*============== Media query at 350px ================== */
+@media screen and (max-width: 350px) {
+  /*================ team section =================== */
+  .team .container .row .team-members {
+    height: 80%;
+  }
+  .team .container .row .team-members .member {
+    width: 90%;
+  }
+}

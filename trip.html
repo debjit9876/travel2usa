@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta info  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="USA travelling website" />
+    <!-- title  -->
+    <title>Travel.2.USA</title>
+    <!-- website icon  -->
+    <link rel="icon" type="image/png" href="./IMG/web-icon.png" />
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Trip page CSS link  -->
+    <link rel="stylesheet" href="./CSS/trip.style.css" />
+    <!-- Responsive CSS link  -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Trip page responsive CSS link  -->
+    <link rel="stylesheet" href="./CSS/trip.responsive.css" />
+    <!-- Google fonts CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Swiper CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="./index.html"
+              ><img src="./IMG/logo-white.png" alt="logo-black"
+            /></a>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./trip.html">Trip</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="log-in-btn">
+            <a href="./signin.html"><i class="fa-solid fa-circle-user"></i></a>
+            <i class="ico fa-solid fa-bars-staggered"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main  -->
+    <main>
+      <!-- Trip Banner Section  -->
+      <section class="trip-banner">
+        <video autoplay loop muted plays-inline class="back-video">
+          <source
+            src="./VIDEO/13755525-hd_1920_1080_60fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+        
+        <div class="container">
+          <div class="row">
+            <h1>USA Trip Ideas <i class="fa-solid fa-route"></i></h1>
+            <p>
+              We're discovering the USA from the freedom of the open road, and
+              you're in the driver's seat. There's no better way to experience
+              extraordinary vistas, charming small towns, and hidden gems.
+              Explore these curated trips across the USA, then customize your
+              own trip using the USA Trip Planner.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Search section  -->
+      <section class="trip-ideas-search">
+        <div class="container">
+          <div class="row">
+            <div class="form">
+              <form>
+                <input type="text" placeholder="Search all trips" />
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Popular trip section  -->
+      <section class="popular-trip">
+        <div class="container">
+          <div class="row">
+            <h2>Popular</h2>
+            <div class="row-content">
+              <div class="card" id="card1">
+                <figure>
+                  <img src="./IMG/trip-popular-1.jpg" alt="trip-popular-1" />
+                </figure>
+                <h3>Trip: 1-2 weeks</h3>
+                <p>A Tour of Colorful and Culture-Filled New England</p>
+              </div>
+              <div class="card" id="card2">
+                <figure>
+                  <img src="./IMG/trip-popular-2.jpg" alt="trip-popular-2" />
+                </figure>
+                <h3>Trip: 1-2 weeks</h3>
+                <p>Southern Utah’s National Parks and Small Towns and villages also</p>
+              </div>
+              <div class="card" id="card3">
+                <figure>
+                  <img src="./IMG/trip-popular-3.jpg" alt="trip-popular-3" />
+                </figure>
+                <h3>Trip: 1-2 weeks</h3>
+                <p>
+                  Ohio Road Trip: Rock ‘n Roll, Roller Coasters, City Culture
+                  and Charm
+                </p>
+              </div>
+              <div class="card" id="card4">
+                <figure>
+                  <img src="./IMG/trip-popular-4.jpg" alt="trip-popular-4" />
+                </figure>
+                <h3>Trip: 2 days</h3>
+                <p>
+                  Guam: An Island Packed with Natural Beauty and Cultural Charm
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured trips  -->
+      <section class="featured-trip">
+        <video autoplay loop muted plays-inline class="featured-video">
+          <source
+            src="./VIDEO/16887477-hd_1920_1080_25fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="container">
+          <div class="row">
+            <div class="headings">
+              <h2>Featured trips</h2>
+            </div>
+            <div class="featured-content">
+              <div class="card" id="card1">
+                <figure>
+                  <img src="./IMG/featured-trip-1.jpg" alt="featured-trip-1" />
+                </figure>
+                <h3>Trip: 3 Days</h3>
+                <p>A Beach-Hopping Road Trip through Southeast Texas </p>
+              </div>
+              <div class="card" id="card2">
+                <figure>
+                  <img src="./IMG/featured-trip-2.jpg" alt="featured-trip-2" />
+                </figure>
+                <h3>Trip: 1-2 weeks</h3>
+                <p>Journey through Georgia on a Southern Road Trip and going on</p>
+              </div>
+              <div class="card" id="card3">
+                <figure>
+                  <img src="./IMG/featured-trip-3.jpg" alt="featured-trip-3" />
+                </figure>
+                <h3>Trip: 5 Days</h3>
+                <p>
+                  Fresh Air and Natural Delights: Road Trip Around Houston,
+                  Texas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Off beaten trip section  -->
+      <section class="off-beaten">
+        <div class="container">
+          <div class="row">
+            <h2>Off the beaten path</h2>
+            <div class="row-content">
+              <div class="card">
+                <figure>
+                  <img src="./IMG/off-beaten-1.jpeg" alt="off-beaten-1" />
+                </figure>
+                <h3>Trip: 1-2 weeks</h3>
+                <p>Southern Atlantic Coast</p>
+              </div>
+              <div class="card">
+                <figure>
+                  <img src="./IMG/off-beaten-2.jpeg" alt="off-beaten-2" />
+                </figure>
+                <h3>Trip: 4 days</h3>
+                <p>The New England Coast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- explore all section  -->
+      <section class="explore-all">
+        <video autoplay loop muted plays-inline class="explore-video">
+          <source
+            src="./VIDEO/12511508_1920_1080_60fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="container">
+          <div class="row">
+            <h2>Explore all trips</h2>
+            <div class="row-content">
+              <div class="card" id="card1">
+                <figure>
+                  <img src="./IMG/explore-1.jpeg" alt="explore-1" />
+                </figure>
+                <h3>Trip - 3 days</h3>
+                <p>A Beach-Hopping Road Trip through Southeast Texas</p>
+              </div>
+              <div class="card" id="card2">
+                <figure>
+                  <img src="./IMG/explore-2.jpeg" alt="explore-2" />
+                </figure>
+                <h3>Trip - 4 days</h3>
+                <p>Road Trip through Missouri on Historic Route 66</p>
+              </div>
+              <div class="card" id="card3">
+                <figure>
+                  <img src="./IMG/explore-3.jpeg" alt="explore-3" />
+                </figure>
+                <h3>Trip - 1-2 weeks</h3>
+                <p>Journey through Georgia on a Southern Road Trip</p>
+              </div>
+              <div class="card" id="card4">
+                <figure>
+                  <img src="./IMG/explore-4.jpeg" alt="explore-4" />
+                </figure>
+                <h3>Trip - 2 weeks+</h3>
+                <p>
+                  Quirky Stops & Photo Ops: Drive Route 66 from Arizona to
+                  Kansas
+                </p>
+              </div>
+            </div>
+            <div class="row-content">
+              <div class="card" id="card1">
+                <figure>
+                  <img src="./IMG/explore-5.jpeg" alt="explore-5" />
+                </figure>
+                <h3>Trip - 5 days</h3>
+                <p>
+                  Adventures Around Houston: Family Fun in the Texas Heartland
+                </p>
+              </div>
+              <div class="card" id="card2">
+                <figure>
+                  <img src="./IMG/explore-6.jpeg" alt="explore-6" />
+                </figure>
+                <h3>Trip - 4 days</h3>
+                <p>Nature, History, and Culture Around Houston, Texas</p>
+              </div>
+              <div class="card" id="card3">
+                <figure>
+                  <img src="./IMG/explore-7.jpeg" alt="explore-7" />
+                </figure>
+                <h3>Trip - 1-2 weeks</h3>
+                <p>Western Wonders Road Trip: Natural Beauty in Colorado</p>
+              </div>
+              <div class="card" id="card4">
+                <figure>
+                  <img src="./IMG/explore-8.jpeg" alt="explore-8" />
+                </figure>
+                <h3>Trip - 4 days</h3>
+                <p>
+                  Coastal Flavors and Farm-Fresh Delights: A Tasting Tour of
+                  Maine
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-info">
+              <figure>
+                <img src="./IMG/logo-white.png" alt="logo-white" />
+              </figure>
+              <p>
+                Dreaming of a road trip along Route 66, exploring the wonders of
+                Yellowstone, or soaking in the lights of Las Vegas? Whatever
+                your USA travel dream is, we’ll make it a reality. Start
+                planning today!
+              </p>
+            </div>
+            <div class="footer-form">
+              <p class="head">Subscribe for newsletter!</p>
+              <form>
+                <input type="email" placeholder="Enter your email" required />
+              </form>
+              <a href="#">Subscribe</a>
+            </div>
+            <div class="footer-btns">
+              <p class="head">Follow us on</p>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-text">
+            <p>&copy; 2024 Travel.2.USA. All rights reserved.</p>
+            <div class="btns">
+              <ul>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Jquery CDN  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- JS link  -->
+    <script src="./JS/script.jquery.js"></script>
+  </body>
+</html>

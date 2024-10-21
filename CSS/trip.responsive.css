@@ -1,0 +1,398 @@
+/* =================== Media query at 1200px ================== */
+@media screen and (max-width: 1199px) {
+  /* ============ trip banner =============== */
+  .trip-banner .container {
+    width: 95%;
+  }
+  .trip-banner .container .row p {
+    padding: 2% 10%;
+  }
+
+  /* ============= search section =========== */
+  .trip-ideas-search .container {
+    width: 95%;
+  }
+
+  /* =========== popular trip section ============== */
+  .popular-trip .container {
+    width: 95%;
+  }
+  .popular-trip .container .row .row-content {
+    height: 50%;
+  }
+
+  /*=============== featured trip section ==================== */
+  .featured-trip .container {
+    width: 95%;
+  }
+  .featured-trip .container .row .featured-content {
+    height: 50%;
+  }
+  .featured-trip .container .row .featured-content .card {
+    width: 31%;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten .container {
+    width: 95%;
+  }
+  .off-beaten .container .row .row-content {
+    height: 52%;
+  }
+
+  /* ================== explore all section ================== */
+  .explore-all .container {
+    width: 95%;
+  }
+}
+
+/* =================== Media query at 1024px ================== */
+@media screen and (max-width: 1024px) {
+  /* ============ trip banner =============== */
+  .trip-banner .container .row h1 {
+    font-size: 85px;
+  }
+  .trip-banner .container .row p {
+    padding: 2% 8%;
+  }
+
+  /* =================== search section ==================== */
+  .trip-ideas-search .container .row .form form a i {
+    font-size: 25px;
+  }
+
+  /* =============== popular trip section ===================== */
+  .popular-trip .container .row .row-content {
+    height: 50%;
+  }
+
+  /*=============== featured trip section ============== */
+  .featured-trip .container .row .featured-content {
+    height: 50%;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten .container .row .row-content {
+    height: 50%;
+  }
+}
+
+/* =================== Media query at 992px ================== */
+@media screen and (max-width: 991px) {
+  /*========== popular trip section ============== */
+  .popular-trip .container .row .row-content {
+    height: 45%;
+  }
+  .popular-trip .container .row .row-content .card h3 {
+    font-size: 20px;
+  }
+  .popular-trip .container .row .row-content .card p {
+    font-size: 15px;
+  }
+
+  /*============= featured trip section ============== */
+  .featured-trip {
+    min-height: 600px;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten {
+    height: 600px;
+  }
+  .off-beaten .container .row .row-content {
+    height: 45%;
+  }
+
+  /* ================== explore all section ================== */
+  .explore-all .container .row .row-content .card {
+    width: 31%;
+  }
+  .explore-all .container .row .row-content #card4 {
+    display: none;
+  }
+  .explore-all .container .row .row-content .card h3 {
+    font-size: 20px;
+  }
+}
+
+/* =================== Media query at 768px ================== */
+@media screen and (max-width: 767px) {
+  /* ================= trip banner ==================== */
+  .trip-banner .container .row h1 {
+    font-size: 75px;
+  }
+  .trip-banner .container .row p {
+    padding: 2% 7%;
+  }
+
+  /* ================ search section ================ */
+  .trip-ideas-search .container .row .form {
+    width: 90%;
+  }
+
+  /* ========== popular trip section ================ */
+  .popular-trip {
+    height: 550px;
+  }
+  .popular-trip .container .row .row-content {
+    height: 48%;
+  }
+  .popular-trip .container .row .row-content #card4 {
+    display: none;
+  }
+  .popular-trip .container .row .row-content .card {
+    width: 31%;
+    justify-content: start;
+  }
+
+  /*=============== featured trip section ============== */
+  .featured-trip .container .row .featured-content {
+    height: 46%;
+  }
+  .featured-trip .container .row .featured-content .card {
+    width: 32%;
+    padding: 1.7%;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten {
+    height: 550px;
+  }
+  .off-beaten .container .row h2 {
+    font-size: 45px;
+  }
+  .off-beaten .container .row .row-content {
+    justify-content: space-between;
+    height: 48%;
+  }
+  .off-beaten .container .row .row-content .card {
+    width: 47%;
+    padding: 2%;
+  }
+  .off-beaten .container .row .row-content .card h3 {
+    font-size: 20px;
+  }
+  .off-beaten .container .row .row-content .card p {
+    font-size: 16px;
+  }
+
+  /* ================== explore all section ================== */
+  .explore-all .container .row .row-content .card {
+    width: 32%;
+  }
+  .explore-all .container .row .row-content .card p {
+    font-size: 15px;
+  }
+}
+
+/* =================== Media query at 576px ================== */
+@media screen and (max-width: 575px) {
+  /* =============== trip banner ================ */
+  .trip-banner .container .row h1 {
+    font-size: 68px;
+  }
+  .trip-banner .container .row p {
+    font-size: 16px;
+    padding: 2% 5%;
+  }
+
+  /* ================ search section ================ */
+  .trip-ideas-search {
+    height: 200px;
+  }
+  .trip-ideas-search .container .row .form {
+    height: 30%;
+    width: 100%;
+  }
+  .trip-ideas-search .container .row .form form a i {
+    font-size: 20px;
+  }
+  .trip-ideas-search .container .row .form form input[type="text"] {
+    font-size: 22px;
+  }
+  .trip-ideas-search .container .row .form form input::placeholder {
+    font-size: 22px;
+  }
+
+  /*============ popular trip section ================= */
+  .popular-trip .container .row .row-content #card3 {
+    display: none;
+  }
+  .popular-trip .container .row .row-content .card {
+    width: 47%;
+    padding: 2%;
+  }
+
+  /*=============== featured trip section ============== */
+  .featured-trip .container .row .headings h2 {
+    font-size: 50px;
+  }
+  .featured-trip .container .row .featured-content .card {
+    width: 47%;
+    padding: 2%;
+  }
+  .featured-trip .container .row .featured-content #card3 {
+    display: none;
+  }
+  .featured-trip .container .row .featured-content .card p {
+    font-size: 14px;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten {
+    height: 500px;
+  }
+  .off-beaten .container .row h2 {
+    font-size: 37px;
+  }
+  .off-beaten .container .row .row-content {
+    height: 45%;
+  }
+
+  /* ================== explore all section ================== */
+  .explore-all .container .row .row-content #card3 {
+    display: none;
+  }
+  .explore-all .container .row .row-content .card{
+    width: 47%;
+    padding: 2%;
+  }
+}
+
+/* =================== Media query at 480px ================== */
+@media screen and (max-width: 480px) {
+  /* =============== trip banner ================ */
+  .trip-banner .container .row h1 {
+    font-size: 55px;
+  }
+  .trip-banner .container .row p {
+    font-size: 15px;
+  }
+
+  /* ================ search section ================ */
+  .trip-ideas-search {
+    height: 200px;
+  }
+  .trip-ideas-search .container .row .form {
+    height: 30%;
+  }
+
+  /*============ popular trip section ================= */
+  .popular-trip {
+    height: 800px;
+  }
+  .popular-trip .container .row .row-content .card h3 {
+    font-size: 22px;
+  }
+  .popular-trip .container .row .row-content .card p {
+    font-size: 16px;
+  }
+  .popular-trip .container .row .row-content {
+    height: 80%;
+    width: 85%;
+    flex-direction: column;
+  }
+  .popular-trip .container .row .row-content .card {
+    width: 100%;
+    height: 47%;
+    justify-content: space-between;
+    padding: 3%;
+  }
+  .popular-trip .container .row .row-content .card p {
+    font-size: 15px;
+  }
+
+  /*========== featured trip section ================= */
+  .featured-trip {
+    min-height: 800px;
+  }
+  .featured-trip .container .row .headings h2 {
+    font-size: 45px;
+  }
+  .featured-trip .container .row .featured-content {
+    flex-direction: column;
+    width: 85%;
+  }
+  .featured-trip .container .row .featured-content .card {
+    width: 100%;
+    height: 47%;
+    margin: 20px 0;
+    padding: 3%;
+  }
+  .featured-trip .container .row .featured-content .card p {
+    font-size: 15px;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten {
+    height: 800px;
+  }
+  .off-beaten .container .row .row-content {
+    flex-direction: column;
+    height: 80%;
+    width: 85%;
+    justify-content: space-evenly;
+  }
+  .off-beaten .container .row .row-content .card {
+    height: 42%;
+    width: 100%;
+    padding: 3%;
+  }
+
+  /* ================== explore all section ================== */
+  .explore-all .container .row .row-content #card2{
+    display: none;
+  }
+  .explore-all .container .row .row-content{
+    width: 85%;
+  }
+  .explore-all .container .row .row-content .card{
+    width: 100%;
+    padding: 3%;
+  }
+}
+
+/* =================== Media query at 350px ================== */
+@media screen and (max-width: 350px) {
+  /*================== trip banner =================== */
+  .trip-banner .container .row h1 {
+    font-size: 40px;
+  }
+  .trip-banner .container .row p {
+    font-size: 16px;
+    padding: 0;
+  }
+  /* ================ search section ================ */
+  .trip-ideas-search .container .row .form {
+    height: 30%;
+    width: 100%;
+  }
+  .trip-ideas-search .container .row .form form a {
+    bottom: 27%;
+  }
+  /*============ popular trip section ================= */
+  .popular-trip {
+    height: 830px;
+  }
+  .popular-trip .container .row .row-content {
+    width: 100%;
+  }
+  .popular-trip .container .row .row-content .card {
+    padding: 2.5%;
+  }
+
+  /*========== featured trip section ================= */
+  .featured-trip .container .row .featured-content {
+    width: 100%;
+  }
+
+  /* ============== Off beaten trip section ================== */
+  .off-beaten .container .row .row-content {
+    width: 100%;
+  }
+
+  /* ================== explore all section ================== */
+  .explore-all .container .row .row-content{
+    width: 100%;
+  }
+}
